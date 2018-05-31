@@ -1,0 +1,28 @@
+
+.nav{
+    background-color: #3d7abb;
+    padding: 20px;
+   color: white;
+}
+.nav a{
+    color: white;
+}
+.main{
+    padding: 20px;
+    display:flex;
+}
+.item{
+    border: 1px solid #444;
+    width:30%;
+    margin: 0 20px;
+}
+.pending, .consider, .onhold{
+    padding: 20px;
+}
+.logoText{
+    font-size: 30px;
+    color: white;
+}
+.home{
+    display: flex;
+}
