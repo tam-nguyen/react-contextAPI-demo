@@ -30,7 +30,7 @@ class Pending extends Component {
                                             return (
                                                 <React.Fragment key={key}>
                                                 <tr >
-                                                    <td>{data.reports[0].status}</td>
+                                                    <td><i className="fa fa-sync" aria-hidden="true"></i>{data.reports[0].status}</td>
                                                     <td>{data.name}</td>
                                                     <td>{data.reports[0].estimated_completed_at}</td>
                                                     <td>{data.reports[0].package}</td>

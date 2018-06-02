@@ -12,9 +12,17 @@
     display:flex;
 }
 .item{
-    border: 1px solid #444;
+    border: 1px solid #ececec;
     width:30%;
     margin: 0 20px;
+}
+.item > .item-title {
+    text-align: center;
+    font-size:2em;
+    
+}
+.item > .item-title > h1{
+    font-size:3em;
 }
 .pending, .consider, .onhold{
     padding: 20px;
