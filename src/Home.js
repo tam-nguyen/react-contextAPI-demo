@@ -80,6 +80,7 @@ class Home extends Component {
                 </MyContext.Consumer>
               </tbody>
             </Table>
+            <Link to="/consider">Show Consider Reports</Link>
           </div>
           <div className="item">
             <MyContext.Consumer>
@@ -115,6 +116,7 @@ class Home extends Component {
                 </MyContext.Consumer>
               </tbody>
             </Table>
+            <Link to="/onHold">Show OnHold Reports</Link>
           </div>
         </div>
       </MyProvider>
